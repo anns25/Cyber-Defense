@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/mystyles.css">
+
+    <title>Cyber Defense</title>
+</head>
+
+<body>
+    <div class="cyber-defense">
+        <!-- Navbar Section -->
+        <div class="bg-image d-flex flex-column position-relative">
+            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img id="logo" src="/images/logo.svg" alt="logo">
+                        <img id="brand-name" src="/images/brand_name.svg" alt="brand">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto d-flex justify-content-around">
+                            <li class="nav-item px-1">
+                                <a class="nav-link active" aria-current="page" href="#">Products</a>
+                            </li>
+                            <li class="nav-item px-1">
+                                <a class="nav-link" aria-current="page" href="#">I need to</a>
+                            </li>
+                            <li class="nav-item px-1">
+                                <a class="nav-link" aria-current="page" href="#">Resources</a>
+                            </li>
+                            <li class="nav-item px-1">
+                                <a class="nav-link" aria-current="page" href="#">Company</a>
+                            </li>
+                            <li class="nav-item px-1">
+                                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item d-flex justify-content-start d-lg-none py-4">
+                                <!-- <ul>
+                                    <li class="nav-item px-1 d-block d-lg-none">
+                                        <a class="nav-link" aria-current="page" href="#"> -->
+                                <div class="d-flex align-items-center">
+                                    <img class="px-1" src="/images/sign_in_image.svg">
+                                    <span>Sign In</span>
+                                </div>
+                                <!-- </a>
+                                    </li>
+                                    <li class="nav-item px-1 d-block d-lg-none"> -->
+                                <a class="nav-link mx-4" aria-current="page" href="#" id="highlight-item">Try Now
+                                    Free</a>
+                                <!-- </li>
+                                </ul> -->
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto d-flex justify-content-around align-items-center">
+                            <li class="nav-item px-1 list-lg">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <div class="d-flex align-items-center">
+                                        <img class="px-1" src="/images/sign_in_image.svg">
+                                        <span>Sign In</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item px-1 list-lg">
+                                <a class="nav-link" aria-current="page" href="#" id="highlight-item">Try Now Free</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <!-- HERO TEXT SECTION  -->
+
+            <section class="hero-section container-fluid">
+                <div class="container mx-auto">
+                    <h1 class="phone-mode">We <span class="expand-highlight"><span class="blur-word">blur</span> the
+                            line</span></h1>
+                    <p class="subtitle mx-auto">between autonomous & human-led cybersecurity</p>
+                    <p class="phone-mode">To make better, faster, and easier security accessible for any business</p>
+                    <button class="btn custom-btn mx-auto mt-3 px-3 py-3">Try the Platform Now</button>
+                </div>
+            </section>
+        </div>
+
+        <!-- IMAGE GRID SECTION -->
+
+        <div class="image-grid scaled-img container py-5 d-flex justify-content-center">
+            <div class="my-auto">
+                <div class="pic1 d-none d-lg-block"><img class="img-fluid p-2" src="/images/pic1.png" alt="Team 1">
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+                <div class="pic2 d-none d-lg-block"><img class="img-fluid p-2" src="/images/pic2.png" alt="Team 2">
+                </div>
+                <div class="pic3 d-none d-lg-block"><img class="img-fluid p-2" src="/images/pic3.png" alt="Team 3">
+                </div>
+            </div>
+            <div class="my-auto">
+                <div class="pic4"><img class="img-fluid p-2" src="/images/pic4.png" alt="Team 4"></div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+                <div class="pic5"><img class="img-fluid p-2" src="/images/pic5.png" alt="Team 4"></div>
+                <div class="pic6"><img class="img-fluid p-2" src="/images/pic6.png" alt="Team 5"></div>
+            </div>
+            <div class="my-auto">
+                <div class="pic7 d-none d-lg-block"><img class="img-fluid p-2" src="/images/pic7.png" alt="Team 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHO ARE WE -->/
+    <div class="desc">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-between align-items-center">
+                <!-- Left Column: Text -->
+                <div class="left px-4 col-lg-4 mb-4 mb-lg-0">
+                    <h1>
+                        WHO <span class="highlight">WE</span> ARE
+                    </h1>
+                    <p class="mt-3">
+                        In 2017, we started CyberDefense with a mission to help companies, regardless of their scale and
+                        budget, effectively fight against the growing number of cyber attacks. After introducing a
+                        holistic set of cybersecurity solutions powered by our innovative MDR + SOAR
+                        security-as-a-service platform and securing 500+ clients globally, our mission remains
+                        unchanged.</p>
+                </div>
+
+                <!-- Right Column: Stats Grid -->
+                <div class="right px-4 col-lg-6">
+                    <div class="row g-4 g-lg-5">
+                        <div class="col-6">
+                            <div class="stat-card d-flex flex-column justify-content-center px-1 px-md-3 text-center">
+                                <h5>120</h5>
+                                <p class="mb-0">Certified security engineers spread out across 3 continents.</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card d-flex flex-column justify-content-center px-1 px-md-3 text-center">
+                                <h5>65k+</h5>
+                                <p class="mb-0">Endpoints protected daily</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card d-flex flex-column justify-content-center px-1 px-md-3 text-center">
+                                <h5>99%</h5>
+                                <p class="mb-0">MITRE ATT&CK coverage</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card d-flex flex-column justify-content-center px-1 px-md-3 text-center">
+                                <h5>45+</h5>
+                                <p class="mb-0">Out-of-the-box integrations</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card d-flex flex-column justify-content-center px-1 px-md-3 text-center">
+                                <h5>20 min</h5>
+                                <p class="mb-0">SLA response time to critical alerts</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card d-flex flex-column justify-content-center px-1 px-md-3 text-center">
+                                <h5>160+</h5>
+                                <p class="mb-0">Offensive simulations & pen test projects annually</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHAT WE BELIEVE  -->
+
+    <div class="container-fluid">
+        <img src="/images/believe.png" alt="Team Image" class="img-fluid w-100 d-block d-lg-none">
+    </div>
+
+    <div class="believe container py-5">
+        <div class="row align-items-center">
+            <!-- Left: Image -->
+            <div class="col-lg-6 mb-4 mb-md-0">
+                <img src="/images/believe.png" alt="Team Image" class="img-fluid w-100 d-none d-lg-block">
+            </div>
+
+            <!-- Right: Content -->
+            <div class="col-lg-4 mx-auto">
+                <h3 class="subtitle text-center text-lg-start mb-4">What we believe in</h3>
+
+                <div class="highlight-line my-4 mx-2">
+                    <p class="py-2">Ability for businesses to maintain operational stability and do their job daily
+                        despite the
+                        evolving threat landscape.</p>
+                </div>
+
+                <div class="highlight-line my-4 mx-2">
+                    <p class="py-2">Security teams focusing on complex problems that only people can solve, while our
+                        solutions take
+                        care of the rest.</p>
+                </div>
+
+                <div class="highlight-line my-4 mx-2">
+                    <p class="py-2">Transparent, "pay as you go" model that adapts to your company size and security
+                        needs, and
+                        scales along with your business.</p>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex flex-column align-items-center flex-lg-row gap-3 mt-lg-4 w-100">
+                    <button href="#" class="btn custom-btn py-3 px-2 mt-lg-3 w-100 w-lg-auto">Check Case
+                        Studies</button>
+                    <button href="#" class="btn outline-btn py-3 px-2 mt-lg-3 w-100 w-lg-auto">See Partners</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- OUR LEADERSHIP -->
+
+    <div class="container py-5 text-center">
+        <h2 class="subtitle mb-5">Meet our leadership</h2>
+
+        <!-- SINGLE PICTURE SLIDE -->
+
+        <div id="leadershipCarousel" class="carousel slide d-block d-md-none" data-bs-ride="carousel"
+            data-bs-interval="3000">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+
+                        <!-- card-1 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person1.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row g-4 justify-content-center">
+
+                        <!-- card-2 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person2.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </diV>
+
+                <div class="carousel-item">
+                    <div class="row g-4 justify-content-center">
+
+                        <!-- card-3 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person3.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custom Line Indicators -->
+
+            <div class="carousel-indicators custom-indicators d-flex justify-content-center gap-3 mt-5">
+                <button type="button" data-bs-target="#leadershipCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#leadershipCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#leadershipCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- FOUR PICTURE SLIDE  -->
+
+        <div id="leadershipCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel"
+            data-bs-interval="3000">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+
+                        <!-- card-1 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person1.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-2 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person2.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-3 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person3.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-4 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person2.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+
+                        <!-- card-1 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person1.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-2 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person2.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-3 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person3.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-4 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person2.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item active">
+                    <div class="row g-4 justify-content-center">
+
+                        <!-- card-1 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person1.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-2 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person2.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-3 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person3.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-4 -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="team-card">
+                                <img src="/images/person2.png" alt="Ivan Eaton" class="img-fluid w-100">
+                                <div class="card-footer-overlay d-flex justify-content-between align-items-center">
+                                    <div class="team-info text-start py-3 px-3">
+                                        <h6>Ivan Eaton</h6>
+                                        <small>COO</small>
+                                    </div>
+                                    <a href="#" class="py-3 px-3"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Custom Line Indicators -->
+
+            <div class="carousel-indicators custom-indicators d-flex justify-content-center gap-3 mt-5">
+                <button type="button" data-bs-target="#leadershipCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#leadershipCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#leadershipCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-0">
+
+        <!-- CyberDefense Difference Section -->
+
+        <div class="feature-box text-center">
+            <h4 class="subtitle mt-5 py-5">The CyberDefense difference</h4>
+            <div class="row text-md-start d-flex justify-content-around">
+                <div class="col-md-3 mb-3">
+                    <div class="my-md-5">
+                        <img src="/images/cd_icon3.svg" class="me-2 py-3" alt="icon">
+                        <div>
+                            <h6 class="py-md-3">Vendor agnostic</h6>
+                            <p class="para py-3">Our solutions have no vendor lock-in. We work with tools you
+                                already
+                                own and make them work harder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="my-md-5">
+                        <img src="/images/cd_icon2.svg" class="me-2 py-3" alt="icon">
+                        <div>
+                            <h6 class="py-md-3">24/7 proactive threat hunting</h6>
+                            <p class="para py-3">Our SOC never sleeps. We hunt for threats 24/7 and notify you
+                                about
+                                necessary security measures proactively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="my-md-5">
+                        <img src="/images/cd_icon1.svg" class="me-2 py-3" alt="icon">
+                        <div>
+                            <h6 class="py-md-3">Threat detection & containment in minutes</h6>
+                            <p class="para pt-3">CyberDefense MAX security automation platform backed by our
+                                concierge
+                                team allows you to respond to threats faster and prevent them more efficiently.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blue-bg">
+        <div class="container pb-5">
+            <!-- Experts Finalists Winners Section -->
+            <div class="text-center mb-5 pb-5 mt-0 pt-0">
+                <h4 class="subtitle pb-5 pt-0">Experts. Finalists. Winners.</h4>
+                <div class="row flex-column align-items-center flex-sm-row my-5 text-center brand-logos">
+                    <div class="col-12 col-sm-6 col-md-3 py-4 px-5 d-none d-sm-block">
+                        <img src="images/brand_logo1.svg" class="img-fluid" alt="Clutch">
+                        <div class="mt-sm-2 mx-auto para pt-4 py-sm-3 logo-label">Best CyberSecurity Provider 2022</div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 py-4 px-5 d-block d-sm-none">
+                        <img src="images/clutch_small_scrn.svg" class="img-fluid" alt="Clutch">
+                        <div class="mt-sm-2 mx-auto para pt-4 py-sm-3 logo-label">Best CyberSecurity Provider 2022</div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 py-4 px-5">
+                        <img src="images/brand_logo2.svg" class="img-fluid" alt="Gartner">
+                        <div class="mt-sm-2 mx-auto para pt-4 py-sm-3 logo-label">Gartner Peer Insights for MDR Services
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 py-4 px-5">
+                        <img src="images/brand_logo3.svg" class="img-fluid" alt="Boss">
+                        <div class="mt-sm-2 mx-auto para pt-4 py-sm-3 logo-label">#4 Splunk Boss of the SOC 2023 out 184
+                            teams
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 py-4 px-5">
+                        <img src="images/brand_logo4.svg" class="img-fluid" alt="Comparitech">
+                        <div class="mt-sm-2 mx-auto para pt-4 py-sm-3 logo-label">#1 in Managed SIEM services by
+                            Comparitech</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Title & Ratings -->
+
+            <div class="row mb-5 justify-content-around align-items-center">
+                <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+                    <h2 class="subtitle-big">WHY CLIENTS CHOOSE <span class="highlight-new">CYBERDEFENSE</span>
+                    </h2>
+                </div>
+                <div class="col-lg-6 d-flex flex-column align-items-center flex-lg-row gap-1">
+                    <img src="images/rating2.svg" class="rating-img img-fluid" alt="Gartner">
+                    <img src="images/rating1.svg" class="rating-img img-fluid" alt="Clutch">
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="text-center my-5">
+                <h5 class="subtitle my-4">Certifications</h5>
+            </div>
+            <div class="d-flex justify-content-around flex-wrap align-items-center cert-logos py-4">
+                <img src="images/cert1.png" alt="Splunk" class="img-fluid d-none d-lg-block">
+                <img src="images/cert2.png" alt="Cisco" class="img-fluid">
+                <img src="images/cert3.png" alt="OWASP" class="img-fluid">
+                <img src="images/cert4.png" alt="Fortify" class="img-fluid">
+                <img src="images/cert5.png" alt="CCNP1" class="img-fluid d-none d-lg-block">
+                <img src="images/cert6.png" alt="CCNP2" class="img-fluid d-none d-lg-block">
+            </div>
+            <div class="certification text-center mt-4">
+                <a href="#" class="btn outline-btn px-4 py-3 mt-3">See all certifications</a>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial Section -->
+
+    <div class="container-fluid d-block d-lg-none position-static">
+        <img src="images/testimonial_small.png" class="img-fluid w-100">
+    </div>
+
+    <div class="testimonial container-fluid position-relative px-0 d-none d-lg-block">
+        <img src="images/hero_image.png" class="img-fluid w-100">
+        <img src="images/hero_style.png" class="position-absolute hero-style img-fluid d-none d-lg-block">
+        <div
+            class="text-container container position-absolute team-info d-flex flex-column justify-content-around align-items-start">
+            <p class="mb-4 para">“Our innovation in cybersecurity begins with owning the fact that threats and
+                breaches are imminent. Our goal is to make an impactful change in the security space for every
+                organization and industry possible. As cybersecurity continuously changes, a human-led security
+                approach is the only way to stay secure today. We practice what we preach.”</p>
+            <h6>Ivan Eaton</h6>
+            <small>CEO of CyberDefense</small>
+        </div>
+
+    </div>
+
+
+    <!-- Featured in section -->
+
+    <div class="container featured-in mb-5">
+        <h5 class="subtitle pb-5 text-center">Featured in</h5>
+        <div class="d-flex justify-content-around ">
+            <img src="images/media1.svg" class="img-fluid d-none d-lg-block">
+            <img src="images/media2.svg" class="img-fluid">
+            <img src="images/media3.svg" class="img-fluid">
+            <img src="images/media4.svg" class="img-fluid">
+            <img src="images/media5.svg" class="img-fluid d-none d-lg-block">
+        </div>
+    </div>
+
+    <div class="container py-5">
+
+        <!-- Cards Row -->
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card text-white border-0">
+                    <img src="images/article1.png" class="card-img rounded-custom" alt="article1">
+                    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start px-4">
+                        <p class="card-text px-3 px-lg-5 w-100 w-lg-75">
+                            We support the United Nations 2030 Agenda for Sustainable Development and continue
+                            working
+                            to address global challenges.</p>
+                        <a href="#" class="read-more mt-2 px-3 px-lg-5 w-100">Read more <i
+                                class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-white border-0">
+                    <img src="images/article2.png" class="card-img rounded-custom" alt="article2">
+                    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start px-4">
+                        <p class="card-text px-3 px-lg-5 w-100 w-lg-75">
+                            We keep people at the center of everything we do, with respect for diversity and
+                            passion for
+                            collaboration.</p>
+                        <a href="#" class="read-more mt-2 px-3 px-lg-5 w-100">Read more <i
+                                class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta mb-5 position-relative d-none d-md-block">
+        <img src="images/leftbgbox.png" class="position-absolute bottom-0 start-0 decorative-shape d-none d-md-block">
+        <img src="images/rightbgbox.png" class="position-absolute top-0 end-0 decorative-shape d-none d-md-block">
+        <div class="container">
+            <!-- CTA Section -->
+            <div class="text-center cta my-5 py-5">
+                <h3 class="subtitle team-info py-2">Let's protect together</h3>
+                <p class="py-2 text-center mx-auto">
+                    Join our world-class team of cybersecurity experts to create a secure and trusted digital
+                    world
+                    together.</p>
+                <div class="pb-3">
+                    <button class="btn custom-btn mt-3 px-4 py-2">View careers</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="text-white py-5">
+        <div class="container">
+            <!-- Logo and Certifications -->
+            <div class="d-flex justify-content-center justify-content-md-between py-4">
+                <a href="index.html"><img src="images/footer_logo.svg" alt="Defense Cybersecurity Logo"
+                        class="mb-3 img-fluid footer-logo"></a>
+                <div class="d-flex justify-content-around d-none d-md-block">
+                    <img src="images/footer_logo1.svg" alt="Cert1" class="img-fluid cert-image px-3">
+                    <img src="images/footer_logo2.svg" alt="Cert2" class="img-fluid cert-image px-3">
+                    <img src="images/footer_logo3.svg" alt="Cert3" class="img-fluid cert-image px-3">
+                </div>
+            </div>
+
+            <div class="row d-md-none d-flex justify-content-around pb-4">
+
+                <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+                    <img src="images/phone.svg" class="px-2 py-2 mb-2 me-2 contact-icon">
+                    <span>+1 929 289 5121</span>
+                </div>
+
+                <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+                    <img src="images/mail.svg" class="px-2 py-2 mb-2 me-2 contact-icon">
+                    <span>hello@cyberdefense.com</span>
+                </div>
+
+            </div>
+            <div class="row justify-content-between">
+                <!-- Solutions -->
+                <div class="col-6 col-md-3">
+                    <h6 class="footer-menu">Solutions</h6>
+                    <ul class="list-unstyled">
+                        <li>Managed Detection and Response</li>
+                        <li>SOC-as-a-Service</li>
+                        <li>Managed SIEM Services</li>
+                        <li>Penetration Testing Services</li>
+                        <li>Incident Response</li>
+                        <li>Incident Response Retainer</li>
+                        <li>Virtual CISO</li>
+                        <li>Advanced Threat Prevention</li>
+                        <li>Cloud Security</li>
+                        <li>ISO 27001 Penetration Testing</li>
+                        <li>PCI DSS Penetration Testing</li>
+                        <li>Ethical Hacking Services</li>
+                    </ul>
+                </div>
+
+                <!-- Platform -->
+                <div class="col-6 col-md-2">
+
+                    <h6 class="footer-menu">Platform</h6>
+                    <ul class="list-unstyled">
+                        <li>Integrations</li>
+                        <li>Sign Up</li>
+                    </ul>
+
+
+                    <div class="d-block d-md-none">
+
+                        <!-- Small Screen Company -->
+
+                        <h6 class="footer-menu">Company</h6>
+                        <ul class="list-unstyled">
+                            <li>Who we are</li>
+                            <li>Certification</li>
+                            <li>Careers</li>
+                            <li>Internship Program</li>
+                            <li>Contact us</li>
+                        </ul>
+
+
+                        <!-- Small Screen Resources -->
+
+                        <h6 class="footer-menu">Resources</h6>
+                        <ul class="list-unstyled">
+                            <li>Brochures</li>
+                            <li>Case Studies</li>
+                            <li>Blog</li>
+                            <li>Certified Applications & Organizations</li>
+                            <li>Privacy & Cookies Policy</li>
+                            <li>Sitemap</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Company -->
+                <div class="col-md-2 d-none d-md-block">
+                    <h6 class="footer-menu">Company</h6>
+                    <ul class="list-unstyled">
+                        <li>Who we are</li>
+                        <li>Certification</li>
+                        <li>Careers</li>
+                        <li>Internship Program</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="col-md-2 d-none d-md-block">
+                    <h6 class="footer-menu">Resources</h6>
+                    <ul class="list-unstyled">
+                        <li>Brochures</li>
+                        <li>Case Studies</li>
+                        <li>Blog</li>
+                        <li>Certified Applications & Organizations</li>
+                        <li>Privacy & Cookies Policy</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+
+                <!-- Contacts -->
+                <div class="col-md-3 d-none d-md-block">
+                    <h6 class="footer-menu">Contacts</h6>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center">
+                            <img src="images/phone.svg" class="px-2 py-2 me-2 contact-icon">
+                            <span>+1 929 289 5121</span>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <img src="images/mail.svg" class="px-2 py-2 me-2 contact-icon">
+                            <span>hello@cyberdefense.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- SMALL SCREEN LOGOS -->
+
+            <div class="d-flex flex-wrap justify-content-between d-md-none">
+                <img src="images/footer_logo1.svg" alt="Cert1" class="img-fluid cert-image me-3 py-3">
+                <img src="images/footer_logo2.svg" alt="Cert2" class="img-fluid cert-image me-3 py-3">
+                <img src="images/footer_logo3.svg" alt="Cert3" class="img-fluid cert-image  py-3">
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="d-flex justify-content-between flex-column flex-md-row mt-4 pt-3 small">
+                <div class="d-flex justify-content-around order-md-1 order-2">
+                    <span class="me-5">Terms & Conditions</span>
+                    <span>Privacy Policy</span>
+                </div>
+                <div class="order-md-2 order-1 d-flex justify-content-around d-md-block">
+                    <a href="#" class="text-white px-4 px-md-2 mb-2 social-icon" target="_blank"><i class="bi bi-linkedin" style="font-size: 2rem;"></i></a>
+                    <a href="#" class="text-white px-4 px-md-2 mb-2 social-icon" target="_blank"><i class="bi bi-facebook" style="font-size: 2rem;"></i></a>
+                    <a href="#" class="text-white px-4 px-md-2 mb-2 social-icon" target="_blank"><i class="bi bi-instagram" style="font-size: 2rem;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

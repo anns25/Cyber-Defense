@@ -1,0 +1,141 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=password],
+input[type=tel],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none !important;
+    outline-style: none;
+}
+
+input:focus-visible {
+    outline-width: 0px;
+}
+
+textarea:focus-visible {
+    outline-width: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+/* ----------Styling---------- */
+
+/* fonts   gilroy */
+@font-face {
+    font-family: inter-regular;
+    src: url(../font/inter/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url(../font/inter/Inter_24pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: inter-semibold;
+    src: url(../font/inter/Inter_24pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: inter-extrabold;
+    src: url(../font/inter/Inter_18pt-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: inter-black;
+    src: url(../font/inter/Inter_18pt-Black.ttf);
+}
+
+/* ================================== */
+
+
+* {
+    font-family: inter-regular;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1285px; 
+    margin : 0px auto;
+    padding : 0px 25px; 
+
+}
